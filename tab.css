@@ -1,7 +1,35 @@
+body {
+    background-color: black;
+}
 .content {
     display:none
 }
 
 .content.active {
     display:block
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-flex;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+a:hover{
+    color: white
+}
+
+#tabHolder .active {
+    background: rgb(229, 230, 173);
+}
+
+.content {
+    color: white;
 }
